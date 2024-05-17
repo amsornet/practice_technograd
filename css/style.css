@@ -222,6 +222,8 @@ h1, h2, h3, h4 {
 }
 
 .card {
+  float: left;
+  margin-right: 2rem;
   max-width: 25rem;
   width: 100%;
   margin-block: 2rem;
@@ -273,6 +275,17 @@ h1, h2, h3, h4 {
   color: var(--color-light);
   background-color: var(--color-pink);
   text-underline: var(--color-light);
+}
+
+.mt {
+  margin: 4rem;
+}
+
+.clearfix {
+  margin-bottom: 30rem;
+  overflow: auto;
+  clear: both;
+  display: table;
 }
 
 /*# sourceMappingURL=style.css.map */
