@@ -1,0 +1,28 @@
+:root {
+  --color-dark: #1C1C1C;
+  --color-blue-dark: #3C4DA3;
+  --color-light: #FFFFFF;
+  --color-pink: #E950E3;
+
+
+
+  --border: 1px solid var(--color-dark);
+  --border-radius: 14px;
+  --border-radius-small: 7px;
+  --border-radius-large: 45px;
+
+  --shadow: 0 5px 0 0 var(--color-dark);
+
+  --font-family-base: 'Arial', sans-serif;
+  --font-family-second: 'Arial SemiBold', sans-serif;
+
+  --container-width: 1240px;
+  --container-padding-x: 20px;
+
+  --section-padding-y: 70px;
+
+  --input-height: 59px;
+  --button-height: 68px;
+
+  --transition-duration: 0.2s;
+}
