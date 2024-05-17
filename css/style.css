@@ -184,6 +184,10 @@ svg * {
   --transition-duration: 0.2s;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
   margin-inline: auto;
@@ -213,7 +217,62 @@ h1, h2, h3, h4 {
 }
 
 .cards__title {
-  font-family: var;
+  font-family: var(--font-family-second), sans-serif;
+  font-size: 2.2rem;
+}
+
+.card {
+  max-width: 25rem;
+  width: 100%;
+  margin-block: 2rem;
+  padding-inline: 2rem;
+  border: var(--border);
+  font-family: var(--font-family-base), sans-serif;
+}
+.card__title-body {
+  font-family: var(--font-family-second), sans-serif;
+  font-size: 1.8rem;
+  padding-block: 1rem;
+}
+.card__description {
+  padding-bottom: 1rem;
+  max-width: 228px;
+  width: 100%;
+  text-wrap: wrap;
+  font-size: 1.4rem;
+  white-space: wrap;
+  text-align: left;
+  letter-spacing: -0.4px;
+}
+.card__button {
+  border: none;
+  background: transparent;
+  font-size: 1.4rem;
+  color: var(--color-blue-dark);
+  border-bottom: 1px solid CurrentColor;
+}
+.card__button:hover {
+  color: var(--color-light);
+  background-color: var(--color-pink);
+  border-bottom: 1px solid CurrentColor;
+}
+.card__image {
+  margin-block: 1rem;
+}
+
+.cards__button-bottom {
+  border: none;
+  background: transparent;
+  font-size: 1.4rem;
+  color: var(--color-blue-dark);
+  border-bottom: 1px solid CurrentColor;
+  text-wrap: wrap;
+  width: 7rem;
+}
+.cards__button-bottom:hover {
+  color: var(--color-light);
+  background-color: var(--color-pink);
+  text-underline: var(--color-light);
 }
 
 /*# sourceMappingURL=style.css.map */

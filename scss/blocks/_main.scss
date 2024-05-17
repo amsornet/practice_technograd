@@ -1,5 +1,84 @@
 .cards {
+
   &__title {
-    font-family: var;
+    font-family: var(--font-family-second), sans-serif;
+    font-size: 2.2rem;
   }
+
+
+}
+
+.card {
+  //display: inline-block;
+
+  max-width: 25rem;
+  width: 100%;
+  margin-block: 2rem;
+  padding-inline: 2rem;
+  border: var(--border);
+  font-family: var(--font-family-base), sans-serif;
+
+
+
+  &__title-body {
+    font-family: var(--font-family-second), sans-serif;
+    font-size: 1.8rem;
+    padding-block: 1rem;
+  }
+
+  &__description {
+    padding-bottom: 1rem;
+    max-width: 228px;
+    width: 100%;
+    text-wrap: wrap;
+    font-size: 1.4rem;
+    white-space: wrap;
+    text-align: left;
+    letter-spacing: -0.4px;
+
+  }
+
+  &__button {
+    border: none;
+    background: transparent;
+    font-size: 1.4rem;
+    color: var(--color-blue-dark);
+    border-bottom: 1px solid CurrentColor;
+
+
+    &:hover {
+      color: var(--color-light);
+      background-color: var(--color-pink);
+      border-bottom: 1px solid CurrentColor;
+    }
+
+  }
+
+
+  &__image {
+    margin-block: 1rem;
+
+  }
+
+}
+
+.cards {
+  &__button-bottom {
+    border: none;
+    background: transparent;
+    font-size: 1.4rem;
+    color: var(--color-blue-dark);
+    border-bottom: 1px solid CurrentColor;
+    text-wrap: wrap;
+    width: 7rem;
+
+    &:hover {
+      color: var(--color-light);
+      background-color: var(--color-pink);
+
+      text-underline: var(--color-light);
+    }
+
+  }
+
 }
